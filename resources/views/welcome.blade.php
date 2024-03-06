@@ -34,7 +34,7 @@
 
             <div class="max-w-7xl mx-auto p-6 lg:p-8">
                 <div class="flex justify-center items-center ">
-                    <a href="" class="bg-black text-white p-2 rounded-lg"> Get Started</a>
+                    <a href="{{route('form-show')}}" class="bg-black text-white p-2 rounded-lg"> Get Started</a>
                 </div>
 
                 {{-- <div class="mt-16">

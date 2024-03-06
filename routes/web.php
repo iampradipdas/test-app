@@ -17,6 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/get-form', function (Post $post) {
-    // ...
-})->name('form-show')
+Route::get('/get-form', [App\Http\Controllers\FormController::class, 'show'])->name('form-show');
